@@ -1,0 +1,10 @@
+git init                                    init and create .git document
+git status                                  check the status of current repo will show wheter there is untracked content or changes
+git config user.name  name
+git config user.email email                 config projectg level username and email signature and this will overwrite the local settings in this particular project
+git config --global user.name name
+git config --global user.email email
+git config user.name                        check current signature
+git add  name.txt                           add content to staging area before commit to the local repo
+git rm --cache name.txt                     remove content from staging area
+git commit name.text                        commit changes to local repo
