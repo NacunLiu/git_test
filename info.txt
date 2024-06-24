@@ -1,3 +1,4 @@
+working directory/tree   --->>>   staging area/index --->>> repo
 git init                                    init and create .git document
 git status                                  check the status of current repo will show wheter there is untracked content or changes
 git config user.name  name
@@ -9,3 +10,5 @@ git add  name.txt                           add content to staging area before c
 git rm --cache name.txt                     remove content from staging area
 git commit name.text                        commit changes to local repo
 git checkout name.txt                       abort all changes and roll back to the latest commit
+git commit -m "message"  name.txt           directly commit without entering the vim editor
+git log                                     check historical commit info
