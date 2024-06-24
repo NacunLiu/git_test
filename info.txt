@@ -14,3 +14,4 @@ git commit -m "message"  name.txt           directly commit without entering the
 git log                                     check historical commit info
 git log --pretty=oneline                    each commit only shows in oneline
 git log --oneline                           each commit only shows in online and also show in less info
+git reflog                                  extra shows how many steps to go back to the certain version
