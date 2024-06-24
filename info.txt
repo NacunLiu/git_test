@@ -8,3 +8,4 @@ git config user.name                        check current signature
 git add  name.txt                           add content to staging area before commit to the local repo
 git rm --cache name.txt                     remove content from staging area
 git commit name.text                        commit changes to local repo
+git checkout name.txt                       abort all changes and roll back to the latest commit
