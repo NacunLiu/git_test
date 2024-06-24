@@ -15,3 +15,16 @@ git log                                     check historical commit info
 git log --pretty=oneline                    each commit only shows in oneline
 git log --oneline                           each commit only shows in online and also show in less info
 git reflog                                  extra shows how many steps to go back to the certain version
+git reset --hard  num                       roll to certain version, fill the version number after --hard 
+git reset --hard ^/~n                       can also use ^, 1 ^ represent roll back 1 step,or use git reset --hard ~n to roll back n steps, these 2 methods can only roll back not forward
+git help reset                              git help command to check how to use certain command
+git reset --mixed                           --mixed move the Head pointer and update the index field but not affect working tree
+git reset --soft                            --soft only move Head pointer in the local repo will not affect index field and working directory
+git diff name.txt                           compare the file with that in the staging area
+git diff version-num name.txt               compare the current file on work directory and certain version
+branch                                      running multiple task in multiple line at the same time so can parllel development and one branch development fail won't affect other branch development
+git branch -v                                check the branches we have
+git branch name                             create a new branch
+git checkout name                           switch to certain branch
+hotfix                                      means the server still runnning whlie doing the fix, this is especially at internet server
+
