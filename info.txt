@@ -27,4 +27,5 @@ git branch -v                                check the branches we have
 git branch name                             create a new branch
 git checkout name                           switch to certain branch
 hotfix                                      means the server still runnning whlie doing the fix, this is especially at internet server
-
+git branch -d name                          delete certain branch
+git merge name                              first checkout to the branch which will accept modify then appoint which branch gonna be imported
