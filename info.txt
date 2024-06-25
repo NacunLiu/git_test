@@ -29,3 +29,9 @@ git checkout name                           switch to certain branch
 hotfix                                      means the server still runnning whlie doing the fix, this is especially at internet server
 git branch -d name                          delete certain branch
 git merge name                              first checkout to the branch which will accept modify then appoint which branch gonna be imported
+git add name.txt                            manually resolve conflict, ---->HEAD ====== remove all the symbols and keep the content you want then save and quit. then add the change to staging area
+git commit                                  finally must do a full commmit not partial commit to finish the merge. now these two branch have different content in them and git will accept the difference and indicates already up to date
+git remote -v                               check the current local repo has connect to how many and what names and urls of the remote repository
+git remote add origin url                   add a remote repo url and also give the remote repo a name as you want by default its origin or upstream
+git remote rename old-name new-name         rename a remote repo in local repo connection
+git remote set-url name url                 reset a url of a remote repo name
