@@ -35,3 +35,5 @@ git remote -v                               check the current local repo has con
 git remote add origin url                   add a remote repo url and also give the remote repo a name as you want by default its origin or upstream
 git remote rename old-name new-name         rename a remote repo in local repo connection
 git remote set-url name url                 reset a url of a remote repo name
+git clone url                               this will create a folder that has same name in the repo and the folder contains all content in repo and also clone will create the origin and link the remote repo and also will initial the local repo
+
