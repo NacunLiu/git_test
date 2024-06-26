@@ -39,3 +39,9 @@ git push origin branch-name                 pushe branch-name of local repo to r
 git clone url                               this will create a folder that has same name in the repo and the folder contains all content in repo and also clone will create the origin and link the remote repo and also will initial the local repo
 git fetch                                   see the remote repo
 git pull origin/branch-name                 pull = fetch + merge   pull the certain branch from remote repo   
+git push                                    in a group if a person already pushed his local modify to remote repo then other person cannot push anymore, has to pull first then merge and push, github allow only modify from the latest commit
+fork                                        cross group work use fork, none group member first fork from the github and then clone the forked remote repo to his local repo then do modify work after all done push to his fokred remote repo
+pull request                                then create a pull request and the original owner will review the work and finally merge it to the original remote repo
+ssh                                         use ssh login will not require password in the future
+ssh-keygen -t rsa -C "ur@email.com"         use this command to generate a pair of rsa type keys: one private which will keep in ur local computer and one public upload to github ssh key public starts with ssh-rsa end with email
+
