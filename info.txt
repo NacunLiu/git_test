@@ -35,7 +35,7 @@ git remote -v                               check the current local repo has con
 git remote add origin url                   add a remote repo url and also give the remote repo a name as you want by default its origin or upstream
 git remote rename old-name new-name         rename a remote repo in local repo connection
 git remote set-url name url                 reset a url of a remote repo name
-git push origin branch-name                 pushe branch-name of local repo to remote repo origin
+git push origin branch-name                 push branch-name of local repo to remote repo origin
 git clone url                               this will create a folder that has same name in the repo and the folder contains all content in repo and also clone will create the origin and link the remote repo and also will initial the local repo
 git fetch                                   see the remote repo
 git pull origin/branch-name                 pull = fetch + merge   pull the certain branch from remote repo   
@@ -44,4 +44,6 @@ fork                                        cross group work use fork, none grou
 pull request                                then create a pull request and the original owner will review the work and finally merge it to the original remote repo
 ssh                                         use ssh login will not require password in the future
 ssh-keygen -t rsa -C "ur@email.com"         use this command to generate a pair of rsa type keys: one private which will keep in ur local computer and one public upload to github ssh key public starts with ssh-rsa end with email
-add and test hoftix-2
+git push origin local:remote                if pushing local branch to a different remote branch use this command stay in current branch does not mean it will push current branch to the branch in the remote repo
+git pull origin master                      pull is different with push, first we need to check out the branch gonna accept pull like merge as they are bascilly the same then we execute pull and list from which branch in the remote repo
+
